@@ -1,0 +1,68 @@
+header{
+    background: #2767ad;
+    color: white;
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+    font-size: 1.5rem;
+}
+
+#imagen{
+    max-width:210px;
+    max-height:350px;
+    align-content: center;
+    
+}   
+.table.table-striped.table-hover {
+    border-collapse: collapse; 
+    border: 1px solid black;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid black; 
+    
+}
+
+table{border-color:black;}
+
+
+
+
+input[type="file"]::before {
+    content: 'Seleccionar imagen';
+    display: block;
+    background: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 210px;
+    text-align: center;
+}
+
+#file-input-container{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+input[type="file"]::-webkit-file-upload-button {
+    display:none;
+}
+
+
+
+button{
+    background: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+
